@@ -7,11 +7,11 @@ class App < Sinatra::Base
     "My name is Audra."
   end 
   
-  post '/hometown' do
+  get '/hometown' do
     "My hometown is Grand Island."
   end 
   
-  put '/favorite-song' do
+  get '/favorite-song' do
     "My favorite song is 'Sound of Silence' by Simon & Garfunkel."
   end   
   
