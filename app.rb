@@ -11,11 +11,8 @@ class App < Sinatra::Base
     "My hometown is Grand Island."
   end 
   
-  '/favorite-song' do
+  put '/favorite-song' do
     "My favorite song is 'Sound of Silence' by Simon & Garfunkel."
   end   
-  
-  
-  
   
 end
