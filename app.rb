@@ -12,8 +12,8 @@ class App < Sinatra::Base
   end 
   
   '/favorite-song' do
-    "My favorite song is 'Come on Eileen"
-  
+    "My favorite song is 'Sound of Silence' by Simon & Garfunkel."
+  end   
   
   
   
